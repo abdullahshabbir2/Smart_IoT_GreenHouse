@@ -1,0 +1,35 @@
+# ============================================================
+# Smart IoT Greenhouse - .gitignore
+# ============================================================
+
+# PlatformIO build artifacts
+# Each node has its own .pio/ directory containing compiled firmware,
+# build cache, and downloaded library copies.
+Node1/.pio/
+Node2/.pio/
+
+# PlatformIO IDE project settings
+Node1/.vscode/
+Node2/.vscode/
+
+# Arduino IDE build output
+Node1/build/
+Node2/build/
+
+# Sensitive local configuration
+# If credentials are ever split into a separate header, keep them local.
+secrets.h
+config_local.h
+**/secrets.h
+**/config_local.h
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
