@@ -6,7 +6,7 @@ Node 1 manages the greenhouse climate. It reads temperature, humidity, light int
 
 Node 2 manages irrigation. It reads the water tank level and rain sensor, then runs the water pump on a configurable schedule. Low-water lockout and rain detection are built into the control logic so the pump does not run when it should be protected.
 
-## Portfolio Preview
+## Preview
 
 ### Dashboards
 
@@ -304,6 +304,6 @@ This project is released under the MIT License. See [LICENSE](LICENSE).
 
 ## Author
 
-I documented and built this project as a portfolio-ready embedded IoT system.
+Designed, built and documented by:
 
 **Abdullah Shabbir**
